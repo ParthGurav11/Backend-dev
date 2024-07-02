@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "A backend from chai code",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Parth Gurav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies":{
+    "prettier": "3.3.2"
+  }
 }
